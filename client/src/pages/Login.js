@@ -18,7 +18,11 @@ const Login = () => {
         try {
             await login(email, password);
             setLoading(false);
+<<<<<<< HEAD
             navigate('/');
+=======
+            navigate('/dashboard');
+>>>>>>> d098abb31da788da7bc1b3bd1a51c17107121227
         } catch (err) {
             setLoading(false);
             setError('Failed to log in. Please check your email and password.');
