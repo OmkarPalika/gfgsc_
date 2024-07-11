@@ -5,9 +5,6 @@ const db = get('mongoURI');
 const connectDB = async () => {
   try {
     await connect(db, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-      useCreateIndex: true
     });
     console.log('MongoDB Connected...');
   } catch (err) {
