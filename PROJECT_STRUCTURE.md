@@ -48,8 +48,7 @@ client/
 │   │   │   ├── FeedbackSummary.js
 │   │   │   ├── MediaManagement.js
 │   │   │   ├── MemberDashboard.js
-│   │   │   ├── Profile.js
-│   │   │   ├── ProfilePage.js
+│   │   │   ├── ProfileContent.js
 │   │   │   ├── RegistrationList.js
 │   │   │   ├── ResourceList.js
 │   │   │   └── ...
@@ -115,6 +114,7 @@ client/
 │   │   ├── Login.js
 │   │   ├── NotFound.js
 │   │   ├── Notifications.js
+│   │   ├── Profile.js
 │   │   ├── Register.js
 │   │   ├── Resources.js
 │   │   ├── ReviewFeedback.js
