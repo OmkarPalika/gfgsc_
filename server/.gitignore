@@ -1,3 +1,7 @@
 /node_modules
+<<<<<<< HEAD
 .env
 serviceAccountKey.json
+=======
+.env
+>>>>>>> d098abb31da788da7bc1b3bd1a51c17107121227

@@ -7,6 +7,7 @@ const userSchema = new mongoose.Schema({
   role: { type: String, enum: ['visitor', 'member', 'admin'], default: 'visitor' }
 });
 
+<<<<<<< HEAD
 userSchema.statics.findByEmail = function(email) {
   return this.findOne({ email });
 };
@@ -18,3 +19,6 @@ userSchema.statics.findById = function(id) {
 const User = mongoose.model('User', userSchema);
 
 export default User;
+=======
+export default mongoose.model('User', userSchema);
+>>>>>>> d098abb31da788da7bc1b3bd1a51c17107121227
